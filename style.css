@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    margin-top: 5px;
+    width: 120px;
+    height: 120px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: none;
+    background-color:white;
+    display: inline-block;
+}
+nav{
+    display: flex;
+    width: 97%;
+    margin:auto;
+    padding: 7px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 25px;
+    padding-right: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(41, 41, 41);
+}
+nav ul li a:hover{
+    color: #01d8a2;
+}
+.detail {
+    margin-top: 35px;
+    text-align:initial;
+    padding-left: 150px;
+    display: inline-block;
+  }
+  .detail h1 {
+    font-size: 50px;
+    color: #01d8a2;
+    margin-bottom: 40px;
+    font-family:cursive;
+  }
+   .detail p{
+    font-family: cursive;
+    font-weight: 500;
+    font-size:large;
+    color: rgb(48, 182, 182);
+   }
+   .detail span{
+    color: orange;
+    font-family: 'Brush Script Mt',cursive ;
+    }
+    .img{
+        position: absolute;
+        bottom: 250px;
+        right: 100px;
+        margin-right: 160px;
+        width: 270px;
+        height: 270px;
+        display: inline-block;
+    }
+    .copy{
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-top: 249px;
+        padding: 25px;
+        
+    }
+    body{
+        display: block;
+    }
+    
+    
+      
+      
+
+    
